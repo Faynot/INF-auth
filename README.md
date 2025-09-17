@@ -14,3 +14,17 @@ INF Auth is mostly functional locally. A minimal backend and OAuth provider func
 * [ ] Implement notifications for potentially compromised tokens.
 * [ ] One-time and temporary tokens for anonymous authorization.
 * [ ] Creation of a single, averaged user profile using authorized accounts, which will be issued upon authorization to the site.
+
+## Build
+
+npm/pnpm/yarn etc...
+```bash
+git clone https://github.com/Faynot/INF-auth
+cd INF-auth
+pnpm i
+pnpm run build
+```
+or run
+```
+pnpm run dev
+```
