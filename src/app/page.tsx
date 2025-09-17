@@ -274,7 +274,7 @@ export default function Home() {
         )}
       </AnimatePresence>
       <span>
-        <Link href="github.com">
+        <Link href="https://github.com/Faynot/INF-auth">
           <img src="/github.svg" alt="GitHub" width="64" />
         </Link>
       </span>
